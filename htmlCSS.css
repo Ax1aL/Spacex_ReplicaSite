@@ -1,0 +1,284 @@
+:root{
+
+--white:#f0f0f0;
+--black:#0b0b0b;
+--grey:#8b939b;
+--blue:#2b63c4;
+--bgrey:#21272b;
+
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+
+
+p{
+    font-family:Brandon Grotesque;
+    text-align: center;
+    color:var(--bgrey);
+    font-size: 24px;
+    
+
+}
+.nav{
+background-color: var(--black);
+text-align: center;
+
+}
+
+
+.nav ul{
+    display: inline-block;
+    text-align: center;
+    margin:0px 0px;
+    
+
+}
+.nav1 a{
+    text-decoration: none;
+    color:var(--white);
+   
+}
+.nav1 li{
+    font-family:Brandon Grotesque;
+    list-style: none;
+    color:var(--grey);
+    display:inline-block;
+    margin:20px 6px;
+    font-size:14px;
+}
+.nav2 a{
+    text-decoration: none;
+    color:var(--grey);
+    
+}
+.nav2 a:hover{
+   border-bottom: 2px solid;
+}
+.nav1 a:hover{
+    border-bottom: 2px solid;
+ }
+.nav2 li{
+    font-family:Brandon Grotesque;
+    list-style: none;
+    color:var(--grey);
+    display:inline-block;
+    font-size: 12px;
+    margin:0px 10px;
+}
+#shop:hover{
+    border: 3px solid var(--grey);
+   
+   padding:0px 10px;
+   margin:0px 0px;
+    border-radius: 25px;
+
+
+}
+
+#img1{
+    height:780px;
+    width:100%;
+    box-shadow: 0px 30px 14px lightgrey;
+}
+.bottomimg{
+    position:absolute;
+    bottom: 0px;
+    left:0px;
+    background-color: var(--bgrey);
+    width:100%;
+    
+    
+}
+.bottomimg li{
+    font-family:Brandon Grotesque;
+    list-style: none;
+    color:var(--grey);
+    display:inline-block;
+   
+    padding: 20px 36px;
+    font-size: 16px;
+
+
+}
+.bottomimg ul{
+    
+    margin:0px 0px;
+    text-align: center;
+    
+
+}
+
+.bottomimg li:hover{
+    
+    background-color: var(--black);
+   
+}
+.topimg p{
+    margin-left:480px;
+    font-size: 30px;
+    
+    display: inline;
+   color:var(--white);
+   opacity: 100%;
+  
+}
+.topimg p:hover{
+    border-bottom: 2px solid;
+}
+.topimg{
+    position:absolute;
+  padding:24px 0px;
+    display: inline;
+    bottom: 63px;
+    background: rgba(33,39,43,0.8);
+   
+    left:0px;
+    width:100%;
+    
+
+}
+
+
+.topimg button{
+   border:none;
+   border-radius: 2px;
+   color:var(--grey);
+   margin-left:140px;
+    
+   padding:2px 2px;
+   font-family:Brandon Grotesque;
+   color:var(--bgrey);
+   font-size: 16px;
+}
+.topimg button:hover{
+  
+   padding:0px 0px;
+    border: 2px solid lightsalmon;
+}
+.topimg a{
+    text-decoration: none;
+    display: inline-block;
+    padding:4px 38px;
+    color:var(--bgrey);
+}
+
+.container{
+    
+    position:relative;
+}
+
+.read{
+    text-align: center;
+    margin-bottom: 430px;
+}
+.read ul{
+display: inline-block;
+padding:0px 0px;
+
+
+
+}
+.read li{
+    display: inline-block;
+    box-shadow: 0px 0px 6px var(--grey);
+    padding:20px 24px;
+    margin:50px 18px;
+    
+}
+.read p{
+    text-align: justify;
+    font-size:16px;
+    display: block;
+    
+    
+}
+.read p:hover{
+   text-decoration: underline;
+   
+}
+.read .spec{
+    
+    text-align: justify;
+    font-size: 12px;
+    
+}
+.read .spec a:hover{
+    border-bottom:2px solid ;
+}
+
+
+.read .sp{
+    margin-bottom: 40px;
+}
+
+.read div{
+   
+    width:256px;
+    height: auto;
+}
+.read a{
+    
+    text-decoration: none;
+    color:var(--blue);
+    font-family:Brandon Grotesque;
+    
+    
+}
+
+.foot{
+    position: relative;
+    width:100%;
+    background-color:var(--black);
+}
+
+
+.foot ul{
+    display: inline-block;
+    text-align: center;
+    margin:0px 0px;
+    padding:0px 0px;
+    
+
+}
+.foot a{
+    text-decoration: none;
+    color:var(--white);
+    
+
+   
+}
+.foot img{
+    margin-left:18%;
+}
+.foot a:hover{
+    
+    border-bottom: 2px solid;
+    
+}
+.foot li{
+    font-family:Brandon Grotesque;
+    list-style: none;
+    color:var(--grey);
+    display:inline-block;
+    margin:20px 6px;
+    font-size:14px;
+}
+#cc{
+    font-size: 12px;
+    display: inline;
+    margin-left: 12%;
+    color:var(--grey);
+   
+}
+#slash{
+    color:var(--grey);
+    display: inline;
+    margin:0px 10px;
+  
+}
+#mid{
+    font-size: 18px;
+   margin-top: 30px;
+}
